@@ -9,6 +9,6 @@ const CategoriesSchema = mongoose.Schema({
     },
     urlimg: {type: String},
     position: {type: Number}
-})
+}) 
 
 export default mongoose.model('categories', CategoriesSchema)

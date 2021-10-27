@@ -1,0 +1,55 @@
+#navbar {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: green;
+}
+
+#navbar .navbarWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+#navbar .navbarWrapper > .basket > svg {
+  width: 38px;
+  fill: #2f2f2f;
+}
+
+#navbar .navbarWrapper > .promocode {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#navbar .navbarWrapper > .promocode > button {
+  background: blue;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#navbar .navbarWrapper > .price {
+  font-size: 28px;
+  font-weight: 900;
+  color: grey;
+  padding-bottom: 5px;
+}
+
+#navbar .navbarWrapper > .price > span {
+  font-size: 36px;
+}
+/*# sourceMappingURL=Navbar.css.map */
