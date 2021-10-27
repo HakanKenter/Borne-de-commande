@@ -1,26 +1,25 @@
 # Borne-de-commande
 
-## Installation
+## Installation :
 
-1 - Partie **frontend**
+Installer **viteJS** pour la partie **frontend** avec la commande :
 
--  **npm init vite@latest**
+- **npm init vite@latest**
 
-2 - Partie **backend**
+Installer **expressJS** pour la partie **backend** avec la commande : 
 
-- **npm init**
-- **npm install express --save**
+- **npm init**, puis **npm install express --save**
 
-## Serveur
+## Lancement : 
 
-1 - Base de donnée
+1 - Utilisation de **MongoDB**, démarrer avec la commande :
 
-- MongoDB -> commande : **mongod**
+- **mongod**
+    
+2 - Démarrer le serveur **backend** :
 
-2 - Serveur **backend**
+- Entrer dans le dossier **backend** et lancer la commande **npm start**
+    
+3 - Démarrer le serveur **frontend** : 
 
-- **npm start**
-
-3 - Serveur **frontend**
-
-- **npm run dev**
+- Entrer dans le dossier **backend** et lancer la commande **npm run dev**
